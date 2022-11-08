@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="42943" started-at="2022-11-08T13:27:32Z" finished-at="2022-11-08T13:28:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test_runner.test_runner@29ee9faa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="42943" started-at="2022-11-08T13:27:32Z" finished-at="2022-11-08T13:28:15Z">
+      <class name="test_runner.test_runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test_runner.test_runner@29ee9faa]" name="setUpClass" is-config="true" duration-ms="572" started-at="2022-11-08T18:57:32Z" finished-at="2022-11-08T18:57:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c27d39d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test_runner.test_runner@29ee9faa]" name="runScenario" duration-ms="14177" started-at="2022-11-08T18:57:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-08T18:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To  login with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing guru99 login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:test_runner.test_runner@29ee9faa]" name="runScenario" duration-ms="28089" started-at="2022-11-08T18:57:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-08T18:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To  login with multiple data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing guru99 login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test_runner.test_runner@29ee9faa]" name="tearDownClass" is-config="true" duration-ms="89" started-at="2022-11-08T18:58:15Z" finished-at="2022-11-08T18:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test_runner.test_runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
